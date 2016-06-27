@@ -45,7 +45,7 @@ if(isset($_POST['action'])){
 </ul>
 <nav>
   <div class="navbar-fixed">
-  <div class="nav-wrapper">
+  <div class="nav-wrapper" style="color: #f3f4f5;">
     <a href="#!" class="brand-logo">Logo</a>
     <ul class="right hide-on-med-and-down">
       <li><a href="index.php">Home</a></li>
