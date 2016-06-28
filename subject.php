@@ -9,11 +9,7 @@ else{
   if($_SESSION['group1']!="student"){
     header("Location: teacher.php");
   }
-
 }
-
-
-
 ?>
 <!docktype html>
 <html>
