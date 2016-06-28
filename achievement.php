@@ -4,14 +4,12 @@ include "connect.php";
 $user=$_SESSION['username'];
 $query=mysqli_query($connect,"SELECT * FROM result where username='$user'");
 $i=mysqli_num_rows($query);
-
 $xyz=mysqli_fetch_array($query);
 $percent=$xyz['percentage'];
 $sub=$xyz['subject'];
 $total=$xyz['total_marks'];
 $obtain=$xyz['marks_obtained'];
 $result=$xyz['result'];
-
 ?>
 <!docktype html>
 <html>
@@ -51,7 +49,6 @@ $result=$xyz['result'];
               <th data-field="subject">Result</th>
           </tr>
         </thead>
-
         <tbody>
         	<?php
         	while($i--){
