@@ -12,7 +12,7 @@ include "connect.php";
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script></head>
 <body>
-	<nav>
+<nav>
     <div class="nav-wrapper">
       <a href="#" class="brand-logo">Logo</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -52,7 +52,6 @@ include "connect.php";
   ?>
     <div class="row" style="width: 50%!important; margin-top: 2%;">
     <form class="col s12" action="login.php" method="post">
-    
       <div class="row" >
         <div class="input-field col s6">
         <input class="with-gap" name="group1" type="radio" id="test1" value="teacher" required/>
