@@ -10,7 +10,6 @@ else{
     header("Location: teacher.php");
   }
 }
-
 ?>
 <?php
     if(isset($_POST['submit'])){
