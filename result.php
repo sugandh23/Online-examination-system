@@ -14,8 +14,7 @@ session_start();
   $wrong_ans=$quesno-$correct_ans-$not_attempted;
   $user=$_SESSION['username'];
   $percent=($correct_ans/$quesno)*100;
-  
-  ?>
+    ?>
 <!docktype html>
 <html>
 <head>
